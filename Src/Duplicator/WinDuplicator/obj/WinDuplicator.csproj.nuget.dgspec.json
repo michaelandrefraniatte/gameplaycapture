@@ -1,0 +1,202 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\WinDuplicator\\WinDuplicator.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj",
+        "projectName": "Duplicator",
+        "projectPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj",
+        "packagesPath": "C:\\Users\\mic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Animation": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.D3DCompiler": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DXGI": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Desktop": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D10": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11.Effects": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D12": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D9": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectComposition": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectInput": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectManipulation": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DirectSound": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Mathematics": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.MediaFoundation": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.XAudio2": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\WinDuplicator\\WinDuplicator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\WinDuplicator\\WinDuplicator.csproj",
+        "projectName": "WinDuplicator",
+        "projectPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\WinDuplicator\\WinDuplicator.csproj",
+        "packagesPath": "C:\\Users\\mic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\WinDuplicator\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj": {
+                "projectPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "SharpDX": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.DXGI": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct2D1": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.Direct3D11": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            },
+            "SharpDX.MediaFoundation": {
+              "target": "Package",
+              "version": "[4.2.0, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

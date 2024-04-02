@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "W3qLZJBc7DYZMk6PTpsOYhzaH/wNb3r/y24l8vpfBkjeJ2+FDLKXWpHCgmYEob/9fsKogkLD8g94gMrvso6Qeg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx\\4.2.0\\sharpdx.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.animation\\4.2.0\\sharpdx.animation.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.d3dcompiler\\4.2.0\\sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.desktop\\4.2.0\\sharpdx.desktop.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct2d1\\4.2.0\\sharpdx.direct2d1.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct3d10\\4.2.0\\sharpdx.direct3d10.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct3d11\\4.2.0\\sharpdx.direct3d11.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct3d11.effects\\4.2.0\\sharpdx.direct3d11.effects.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct3d12\\4.2.0\\sharpdx.direct3d12.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.direct3d9\\4.2.0\\sharpdx.direct3d9.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.directcomposition\\4.2.0\\sharpdx.directcomposition.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.directinput\\4.2.0\\sharpdx.directinput.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.directmanipulation\\4.2.0\\sharpdx.directmanipulation.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.directsound\\4.2.0\\sharpdx.directsound.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.dxgi\\4.2.0\\sharpdx.dxgi.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.mathematics\\4.2.0\\sharpdx.mathematics.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.mediafoundation\\4.2.0\\sharpdx.mediafoundation.4.2.0.nupkg.sha512",
+    "C:\\Users\\mic\\.nuget\\packages\\sharpdx.xaudio2\\4.2.0\\sharpdx.xaudio2.4.2.0.nupkg.sha512"
+  ],
+  "logs": []
+}

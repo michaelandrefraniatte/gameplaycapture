@@ -1,0 +1,1496 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Animation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Desktop/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D10/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11.Effects/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win7-x64/native/sharpdx_direct3d11_1_effects.dll": {
+            "assetType": "native",
+            "rid": "win7-x64"
+          },
+          "runtimes/win7-x86/native/sharpdx_direct3d11_1_effects.dll": {
+            "assetType": "native",
+            "rid": "win7-x86"
+          },
+          "runtimes/win8-arm/native/sharpdx_direct3d11_1_effects.dll": {
+            "assetType": "native",
+            "rid": "win8-arm"
+          }
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectComposition/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DirectManipulation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        }
+      },
+      "SharpDX.DirectSound/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.XAudio2/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Animation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Desktop/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D10/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11.Effects/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectComposition/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DirectManipulation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        }
+      },
+      "SharpDX.DirectSound/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.XAudio2/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Animation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Desktop/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D10/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11.Effects/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectComposition/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DirectManipulation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        }
+      },
+      "SharpDX.DirectSound/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.XAudio2/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "SharpDX/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/SharpDX.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.dll": {}
+        }
+      },
+      "SharpDX.Animation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Animation.dll": {}
+        }
+      },
+      "SharpDX.D3DCompiler/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.D3DCompiler.dll": {}
+        }
+      },
+      "SharpDX.Desktop/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "frameworkAssemblies": [
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Desktop.dll": {}
+        }
+      },
+      "SharpDX.Direct2D1/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct2D1.dll": {}
+        }
+      },
+      "SharpDX.Direct3D10/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D10.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.dll": {}
+        }
+      },
+      "SharpDX.Direct3D11.Effects/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.D3DCompiler": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D11": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D11.Effects.dll": {}
+        }
+      },
+      "SharpDX.Direct3D12/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D12.dll": {}
+        }
+      },
+      "SharpDX.Direct3D9/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Direct3D9.dll": {}
+        }
+      },
+      "SharpDX.DirectComposition/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct2D1": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectComposition.dll": {}
+        }
+      },
+      "SharpDX.DirectInput/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectInput.dll": {}
+        }
+      },
+      "SharpDX.DirectManipulation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectManipulation.dll": {}
+        }
+      },
+      "SharpDX.DirectSound/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DirectSound.dll": {}
+        }
+      },
+      "SharpDX.DXGI/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.DXGI.dll": {}
+        }
+      },
+      "SharpDX.Mathematics/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.Mathematics.dll": {}
+        }
+      },
+      "SharpDX.MediaFoundation/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0",
+          "SharpDX.DXGI": "4.2.0",
+          "SharpDX.Direct3D9": "4.2.0",
+          "SharpDX.Mathematics": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.MediaFoundation.dll": {}
+        }
+      },
+      "SharpDX.XAudio2/4.2.0": {
+        "type": "package",
+        "dependencies": {
+          "SharpDX": "4.2.0"
+        },
+        "compile": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        },
+        "runtime": {
+          "lib/net45/SharpDX.XAudio2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SharpDX/4.2.0": {
+      "sha512": "3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
+      "type": "package",
+      "path": "sharpdx/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/.xml",
+        "lib/net40/SharpDX.dll",
+        "lib/net40/SharpDX.pdb",
+        "lib/net45/.xml",
+        "lib/net45/SharpDX.dll",
+        "lib/net45/SharpDX.pdb",
+        "lib/netstandard1.1/.xml",
+        "lib/netstandard1.1/SharpDX.dll",
+        "lib/netstandard1.1/SharpDX.pdb",
+        "lib/uap10.0/.xml",
+        "lib/uap10.0/SharpDX.dll",
+        "lib/uap10.0/SharpDX.pdb",
+        "lib/uap10.0/SharpDX.pri",
+        "sharpdx.4.2.0.nupkg.sha512",
+        "sharpdx.nuspec"
+      ]
+    },
+    "SharpDX.Animation/4.2.0": {
+      "sha512": "7wZCmGj4//gug6GkvmKn9zf3g6ld/gZ/po3h7O8jpwRh9T0iP05EQdQw6RNBULIHtMjKv+YVhBdMXIS82AN4nQ==",
+      "type": "package",
+      "path": "sharpdx.animation/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Animation.dll",
+        "lib/net40/SharpDX.Animation.pdb",
+        "lib/net40/SharpDX.Animation.xml",
+        "lib/net45/SharpDX.Animation.dll",
+        "lib/net45/SharpDX.Animation.pdb",
+        "lib/net45/SharpDX.Animation.xml",
+        "lib/netstandard1.1/SharpDX.Animation.dll",
+        "lib/netstandard1.1/SharpDX.Animation.pdb",
+        "lib/netstandard1.1/SharpDX.Animation.xml",
+        "sharpdx.animation.4.2.0.nupkg.sha512",
+        "sharpdx.animation.nuspec"
+      ]
+    },
+    "SharpDX.D3DCompiler/4.2.0": {
+      "sha512": "Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
+      "type": "package",
+      "path": "sharpdx.d3dcompiler/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.D3DCompiler.dll",
+        "lib/net40/SharpDX.D3DCompiler.pdb",
+        "lib/net40/SharpDX.D3DCompiler.xml",
+        "lib/net45/SharpDX.D3DCompiler.dll",
+        "lib/net45/SharpDX.D3DCompiler.pdb",
+        "lib/net45/SharpDX.D3DCompiler.xml",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.dll",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.pdb",
+        "lib/netstandard1.1/SharpDX.D3DCompiler.xml",
+        "lib/uap10.0/SharpDX.D3DCompiler.dll",
+        "lib/uap10.0/SharpDX.D3DCompiler.pdb",
+        "lib/uap10.0/SharpDX.D3DCompiler.pri",
+        "lib/uap10.0/SharpDX.D3DCompiler.xml",
+        "sharpdx.d3dcompiler.4.2.0.nupkg.sha512",
+        "sharpdx.d3dcompiler.nuspec"
+      ]
+    },
+    "SharpDX.Desktop/4.2.0": {
+      "sha512": "nkxmSzxiPIg2Moz+8tlNo9b4A+fnUvRte9jBTqqmRUnwItNeAeRPU2fNZERfhsN4GPq2VvAskJLZNAxGpzKBPA==",
+      "type": "package",
+      "path": "sharpdx.desktop/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Desktop.dll",
+        "lib/net40/SharpDX.Desktop.pdb",
+        "lib/net40/SharpDX.Desktop.xml",
+        "lib/net45/SharpDX.Desktop.dll",
+        "lib/net45/SharpDX.Desktop.pdb",
+        "lib/net45/SharpDX.Desktop.xml",
+        "sharpdx.desktop.4.2.0.nupkg.sha512",
+        "sharpdx.desktop.nuspec"
+      ]
+    },
+    "SharpDX.Direct2D1/4.2.0": {
+      "sha512": "Qs8LzDMaQf1u3KB8ArHu9pDv6itZ++QXs99a/bVAG+nKr0Hx5NG4mcN5vsfE0mVR2TkeHfeUm4PksRah6VUPtA==",
+      "type": "package",
+      "path": "sharpdx.direct2d1/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct2D1.dll",
+        "lib/net40/SharpDX.Direct2D1.pdb",
+        "lib/net40/SharpDX.Direct2D1.xml",
+        "lib/net45/SharpDX.Direct2D1.dll",
+        "lib/net45/SharpDX.Direct2D1.pdb",
+        "lib/net45/SharpDX.Direct2D1.xml",
+        "lib/netstandard1.1/SharpDX.Direct2D1.dll",
+        "lib/netstandard1.1/SharpDX.Direct2D1.pdb",
+        "lib/netstandard1.1/SharpDX.Direct2D1.xml",
+        "lib/uap10.0/SharpDX.Direct2D1.dll",
+        "lib/uap10.0/SharpDX.Direct2D1.pdb",
+        "lib/uap10.0/SharpDX.Direct2D1.pri",
+        "lib/uap10.0/SharpDX.Direct2D1.xml",
+        "sharpdx.direct2d1.4.2.0.nupkg.sha512",
+        "sharpdx.direct2d1.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D10/4.2.0": {
+      "sha512": "SxWfe7L0MJIs9VvsesmPz4w0EIJBlYZ4oNJsBeSntumbN7MslqKVxt3fiWLrGyGq0zmb7mLWQhzhnV0we4IW9Q==",
+      "type": "package",
+      "path": "sharpdx.direct3d10/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D10.dll",
+        "lib/net40/SharpDX.Direct3D10.pdb",
+        "lib/net40/SharpDX.Direct3D10.xml",
+        "lib/net45/SharpDX.Direct3D10.dll",
+        "lib/net45/SharpDX.Direct3D10.pdb",
+        "lib/net45/SharpDX.Direct3D10.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D10.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D10.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D10.xml",
+        "lib/uap10.0/SharpDX.Direct3D10.dll",
+        "lib/uap10.0/SharpDX.Direct3D10.pdb",
+        "lib/uap10.0/SharpDX.Direct3D10.pri",
+        "lib/uap10.0/SharpDX.Direct3D10.xml",
+        "sharpdx.direct3d10.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d10.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11/4.2.0": {
+      "sha512": "oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
+      "type": "package",
+      "path": "sharpdx.direct3d11/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.dll",
+        "lib/net40/SharpDX.Direct3D11.pdb",
+        "lib/net40/SharpDX.Direct3D11.xml",
+        "lib/net45/SharpDX.Direct3D11.dll",
+        "lib/net45/SharpDX.Direct3D11.pdb",
+        "lib/net45/SharpDX.Direct3D11.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D11.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.pdb",
+        "lib/uap10.0/SharpDX.Direct3D11.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.xml",
+        "sharpdx.direct3d11.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d11.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D11.Effects/4.2.0": {
+      "sha512": "YIrWDlmle++1kWr3uOLlnS6iP5mtX7U+fYF2nLFL4C/U83xwzj0lboVJrzTxiBrrZLAkLZihn3H49t9+zBrpGQ==",
+      "type": "package",
+      "path": "sharpdx.direct3d11.effects/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D11.Effects.dll",
+        "lib/net40/SharpDX.Direct3D11.Effects.pdb",
+        "lib/net40/SharpDX.Direct3D11.Effects.xml",
+        "lib/net45/SharpDX.Direct3D11.Effects.dll",
+        "lib/net45/SharpDX.Direct3D11.Effects.pdb",
+        "lib/net45/SharpDX.Direct3D11.Effects.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D11.Effects.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D11.Effects.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D11.Effects.xml",
+        "lib/uap10.0/SharpDX.Direct3D11.Effects.dll",
+        "lib/uap10.0/SharpDX.Direct3D11.Effects.pdb",
+        "lib/uap10.0/SharpDX.Direct3D11.Effects.pri",
+        "lib/uap10.0/SharpDX.Direct3D11.Effects.xml",
+        "runtimes/win7-x64/native/sharpdx_direct3d11_1_effects.dll",
+        "runtimes/win7-x86/native/sharpdx_direct3d11_1_effects.dll",
+        "runtimes/win8-arm/native/sharpdx_direct3d11_1_effects.dll",
+        "sharpdx.direct3d11.effects.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d11.effects.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D12/4.2.0": {
+      "sha512": "OU4/cKRcAbGe8ZJ4oTUCDKsL5mCoy6aLJ2axYlwjyB8h/Z1OR38vSeGpbPB3ZKPumIuuYrANIBWnJ8xfUK7RQw==",
+      "type": "package",
+      "path": "sharpdx.direct3d12/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D12.dll",
+        "lib/net40/SharpDX.Direct3D12.pdb",
+        "lib/net40/SharpDX.Direct3D12.xml",
+        "lib/net45/SharpDX.Direct3D12.dll",
+        "lib/net45/SharpDX.Direct3D12.pdb",
+        "lib/net45/SharpDX.Direct3D12.xml",
+        "lib/netstandard1.1/SharpDX.Direct3D12.dll",
+        "lib/netstandard1.1/SharpDX.Direct3D12.pdb",
+        "lib/netstandard1.1/SharpDX.Direct3D12.xml",
+        "lib/uap10.0/SharpDX.Direct3D12.dll",
+        "lib/uap10.0/SharpDX.Direct3D12.pdb",
+        "lib/uap10.0/SharpDX.Direct3D12.pri",
+        "lib/uap10.0/SharpDX.Direct3D12.xml",
+        "sharpdx.direct3d12.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d12.nuspec"
+      ]
+    },
+    "SharpDX.Direct3D9/4.2.0": {
+      "sha512": "1KgqXvPj/j5hLYxfcOQoJdHskamu7EWg60n9LBAYhun7dR+sKS0ZDNb7NuKwFP1bM0HZqvokjXQIf3oA2NpdqA==",
+      "type": "package",
+      "path": "sharpdx.direct3d9/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Direct3D9.dll",
+        "lib/net40/SharpDX.Direct3D9.pdb",
+        "lib/net40/SharpDX.Direct3D9.xml",
+        "lib/net45/SharpDX.Direct3D9.dll",
+        "lib/net45/SharpDX.Direct3D9.pdb",
+        "lib/net45/SharpDX.Direct3D9.xml",
+        "lib/netstandard1.3/SharpDX.Direct3D9.dll",
+        "lib/netstandard1.3/SharpDX.Direct3D9.pdb",
+        "lib/netstandard1.3/SharpDX.Direct3D9.xml",
+        "sharpdx.direct3d9.4.2.0.nupkg.sha512",
+        "sharpdx.direct3d9.nuspec"
+      ]
+    },
+    "SharpDX.DirectComposition/4.2.0": {
+      "sha512": "ttM/X+dKkkjbZIGSMaoLLktgvNYWGimq73Q2b3scUtWCagbeVgFdMUXfFqTnqYoufIKYxAqxL0aqokdEAmvyqg==",
+      "type": "package",
+      "path": "sharpdx.directcomposition/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectComposition.dll",
+        "lib/net40/SharpDX.DirectComposition.pdb",
+        "lib/net40/SharpDX.DirectComposition.xml",
+        "lib/net45/SharpDX.DirectComposition.dll",
+        "lib/net45/SharpDX.DirectComposition.pdb",
+        "lib/net45/SharpDX.DirectComposition.xml",
+        "lib/netstandard1.3/SharpDX.DirectComposition.dll",
+        "lib/netstandard1.3/SharpDX.DirectComposition.pdb",
+        "lib/netstandard1.3/SharpDX.DirectComposition.xml",
+        "sharpdx.directcomposition.4.2.0.nupkg.sha512",
+        "sharpdx.directcomposition.nuspec"
+      ]
+    },
+    "SharpDX.DirectInput/4.2.0": {
+      "sha512": "is6Lm9zULyeTbUaLXktF+MwzmUYE8jofhA+6qgR1HBIyRJ/c2rZbeG1VvvGf4w6ktfq/q3AvUWTNzwgdU/+XOg==",
+      "type": "package",
+      "path": "sharpdx.directinput/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectInput.dll",
+        "lib/net40/SharpDX.DirectInput.pdb",
+        "lib/net40/SharpDX.DirectInput.xml",
+        "lib/net45/SharpDX.DirectInput.dll",
+        "lib/net45/SharpDX.DirectInput.pdb",
+        "lib/net45/SharpDX.DirectInput.xml",
+        "lib/netstandard1.3/SharpDX.DirectInput.dll",
+        "lib/netstandard1.3/SharpDX.DirectInput.pdb",
+        "lib/netstandard1.3/SharpDX.DirectInput.xml",
+        "sharpdx.directinput.4.2.0.nupkg.sha512",
+        "sharpdx.directinput.nuspec"
+      ]
+    },
+    "SharpDX.DirectManipulation/4.2.0": {
+      "sha512": "bpy7cwEw3xYULjUoz4YbynyG5F8RvPSynrUM3FJeZw6yY7dZDg1mJq6A8NUusE+G62DSNHLw3jyykD8D5BeZNA==",
+      "type": "package",
+      "path": "sharpdx.directmanipulation/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectManipulation.dll",
+        "lib/net40/SharpDX.DirectManipulation.pdb",
+        "lib/net40/SharpDX.DirectManipulation.xml",
+        "lib/net45/SharpDX.DirectManipulation.dll",
+        "lib/net45/SharpDX.DirectManipulation.pdb",
+        "lib/net45/SharpDX.DirectManipulation.xml",
+        "lib/netstandard1.1/SharpDX.DirectManipulation.dll",
+        "lib/netstandard1.1/SharpDX.DirectManipulation.pdb",
+        "lib/netstandard1.1/SharpDX.DirectManipulation.xml",
+        "sharpdx.directmanipulation.4.2.0.nupkg.sha512",
+        "sharpdx.directmanipulation.nuspec"
+      ]
+    },
+    "SharpDX.DirectSound/4.2.0": {
+      "sha512": "22g98QNyZry94Hef+7LF6BSfuyuvWp0eg1a4VrJeMGdXDsdF+GqMqHzDPYGpZFGuaDKF5y8w+broyZ+26l57pw==",
+      "type": "package",
+      "path": "sharpdx.directsound/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DirectSound.dll",
+        "lib/net40/SharpDX.DirectSound.pdb",
+        "lib/net40/SharpDX.DirectSound.xml",
+        "lib/net45/SharpDX.DirectSound.dll",
+        "lib/net45/SharpDX.DirectSound.pdb",
+        "lib/net45/SharpDX.DirectSound.xml",
+        "lib/netstandard1.3/SharpDX.DirectSound.dll",
+        "lib/netstandard1.3/SharpDX.DirectSound.pdb",
+        "lib/netstandard1.3/SharpDX.DirectSound.xml",
+        "sharpdx.directsound.4.2.0.nupkg.sha512",
+        "sharpdx.directsound.nuspec"
+      ]
+    },
+    "SharpDX.DXGI/4.2.0": {
+      "sha512": "UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
+      "type": "package",
+      "path": "sharpdx.dxgi/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.DXGI.dll",
+        "lib/net40/SharpDX.DXGI.pdb",
+        "lib/net40/SharpDX.DXGI.xml",
+        "lib/net45/SharpDX.DXGI.dll",
+        "lib/net45/SharpDX.DXGI.pdb",
+        "lib/net45/SharpDX.DXGI.xml",
+        "lib/netstandard1.1/SharpDX.DXGI.dll",
+        "lib/netstandard1.1/SharpDX.DXGI.pdb",
+        "lib/netstandard1.1/SharpDX.DXGI.xml",
+        "lib/uap10.0/SharpDX.DXGI.dll",
+        "lib/uap10.0/SharpDX.DXGI.pdb",
+        "lib/uap10.0/SharpDX.DXGI.pri",
+        "lib/uap10.0/SharpDX.DXGI.xml",
+        "sharpdx.dxgi.4.2.0.nupkg.sha512",
+        "sharpdx.dxgi.nuspec"
+      ]
+    },
+    "SharpDX.Mathematics/4.2.0": {
+      "sha512": "R2pcKLgdsP9p5WyTjHmGOZ0ka0zASAZYc6P4L6rSvjYhf6klGYbent7MiVwbkwkt9dD44p5brjy5IwAnVONWGw==",
+      "type": "package",
+      "path": "sharpdx.mathematics/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.Mathematics.dll",
+        "lib/net40/SharpDX.Mathematics.pdb",
+        "lib/net40/SharpDX.Mathematics.xml",
+        "lib/net45/SharpDX.Mathematics.dll",
+        "lib/net45/SharpDX.Mathematics.pdb",
+        "lib/net45/SharpDX.Mathematics.xml",
+        "lib/netstandard1.1/SharpDX.Mathematics.dll",
+        "lib/netstandard1.1/SharpDX.Mathematics.pdb",
+        "lib/netstandard1.1/SharpDX.Mathematics.xml",
+        "lib/uap10.0/SharpDX.Mathematics.dll",
+        "lib/uap10.0/SharpDX.Mathematics.pdb",
+        "lib/uap10.0/SharpDX.Mathematics.pri",
+        "lib/uap10.0/SharpDX.Mathematics.xml",
+        "sharpdx.mathematics.4.2.0.nupkg.sha512",
+        "sharpdx.mathematics.nuspec"
+      ]
+    },
+    "SharpDX.MediaFoundation/4.2.0": {
+      "sha512": "HRf6EU+LyqZN7pETlVhxKkpz2E2p9oGPgFcCZ0t7+S6gnrE9qw49Po69t2YeWo6/MT3APh2Fja7hLNB6Yq36cg==",
+      "type": "package",
+      "path": "sharpdx.mediafoundation/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.MediaFoundation.dll",
+        "lib/net40/SharpDX.MediaFoundation.pdb",
+        "lib/net40/SharpDX.MediaFoundation.xml",
+        "lib/net45/SharpDX.MediaFoundation.dll",
+        "lib/net45/SharpDX.MediaFoundation.pdb",
+        "lib/net45/SharpDX.MediaFoundation.xml",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.dll",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.pdb",
+        "lib/netstandard1.1/SharpDX.MediaFoundation.xml",
+        "lib/uap10.0/SharpDX.MediaFoundation.dll",
+        "lib/uap10.0/SharpDX.MediaFoundation.pdb",
+        "lib/uap10.0/SharpDX.MediaFoundation.pri",
+        "lib/uap10.0/SharpDX.MediaFoundation.xml",
+        "sharpdx.mediafoundation.4.2.0.nupkg.sha512",
+        "sharpdx.mediafoundation.nuspec"
+      ]
+    },
+    "SharpDX.XAudio2/4.2.0": {
+      "sha512": "Q3fFjN8iumvCjIXioHYqfGKUNGFN8FjdmAtRfyZ+7KHnWjeA22WOKeeVxdm429le+gOTgN+9P51wfAJjwAPdHQ==",
+      "type": "package",
+      "path": "sharpdx.xaudio2/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/SharpDX.XAudio2.dll",
+        "lib/net40/SharpDX.XAudio2.pdb",
+        "lib/net40/SharpDX.XAudio2.xml",
+        "lib/net45/SharpDX.XAudio2.dll",
+        "lib/net45/SharpDX.XAudio2.pdb",
+        "lib/net45/SharpDX.XAudio2.xml",
+        "lib/netstandard1.1/SharpDX.XAudio2.dll",
+        "lib/netstandard1.1/SharpDX.XAudio2.pdb",
+        "lib/netstandard1.1/SharpDX.XAudio2.xml",
+        "lib/uap10.0/SharpDX.XAudio2.dll",
+        "lib/uap10.0/SharpDX.XAudio2.pdb",
+        "lib/uap10.0/SharpDX.XAudio2.pri",
+        "lib/uap10.0/SharpDX.XAudio2.xml",
+        "sharpdx.xaudio2.4.2.0.nupkg.sha512",
+        "sharpdx.xaudio2.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "SharpDX >= 4.2.0",
+      "SharpDX.Animation >= 4.2.0",
+      "SharpDX.D3DCompiler >= 4.2.0",
+      "SharpDX.DXGI >= 4.2.0",
+      "SharpDX.Desktop >= 4.2.0",
+      "SharpDX.Direct2D1 >= 4.2.0",
+      "SharpDX.Direct3D10 >= 4.2.0",
+      "SharpDX.Direct3D11 >= 4.2.0",
+      "SharpDX.Direct3D11.Effects >= 4.2.0",
+      "SharpDX.Direct3D12 >= 4.2.0",
+      "SharpDX.Direct3D9 >= 4.2.0",
+      "SharpDX.DirectComposition >= 4.2.0",
+      "SharpDX.DirectInput >= 4.2.0",
+      "SharpDX.DirectManipulation >= 4.2.0",
+      "SharpDX.DirectSound >= 4.2.0",
+      "SharpDX.Mathematics >= 4.2.0",
+      "SharpDX.MediaFoundation >= 4.2.0",
+      "SharpDX.XAudio2 >= 4.2.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mic\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj",
+      "projectName": "Duplicator",
+      "projectPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\Duplicator.csproj",
+      "packagesPath": "C:\\Users\\mic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mic\\Documents\\GitHub\\GameCapture\\Src\\form\\Duplicator\\Duplicator\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\mic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {
+        "dependencies": {
+          "SharpDX": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Animation": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.D3DCompiler": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.DXGI": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Desktop": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct2D1": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct3D10": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct3D11": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct3D11.Effects": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct3D12": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Direct3D9": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.DirectComposition": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.DirectInput": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.DirectManipulation": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.DirectSound": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.Mathematics": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.MediaFoundation": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          },
+          "SharpDX.XAudio2": {
+            "target": "Package",
+            "version": "[4.2.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

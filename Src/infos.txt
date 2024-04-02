@@ -1,0 +1,18 @@
+
+https://github.com/sharpdx/SharpDX/issues/756
+
+https://stackoverflow.com/questions/25423371/d3d11createdevice-returns-garbage-value-and-fails?answertab=votes#tab-top
+
+https://www.microsoft.com/en-us/download/confirmation.aspx?id=6812
+
+Use 60 FPS recording with Duplicator and in release folder for running it, and also check the box duplicate before start record, try a first record, and launch it after everything running on your PC
+
+Enable Duplicator to run with administrator privilege for using decimal to start record and numpad 0 to stop record
+
+Duplicator doesn't need stereo mixer under sound properties to record sound
+
+Count 1, 2, 4, 8 et 16
+
+Quality variant entre 1 et 33
+
+
